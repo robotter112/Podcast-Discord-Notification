@@ -62,7 +62,7 @@ The ```.env``` file contains all necessary configuration options. A sample file 
 # SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 
 # Feed 1 Configuration
-FEED_URL_1=https://anchor.fm/s/abc123/podcast/rss # Link to Spotify RSS feed
+FEED_URL_1=https://anchor.fm/s/abc123/podcast/rss # Link to the RSS feed from Spotify
 WEBHOOK_URL_1=https://discord.com/api/webhooks/123456789/abcdefghijklmnopqrstuvwxyz # Discord channel webhook URL
 SPOTIFY_SHOW_ID_1=123456789 # Optional Required when using the API to find the podcast!
 ROLE_ID_1=123456789123456 # Optional Discord role ID to be mentioned!
@@ -70,7 +70,7 @@ ROLE_ID_1=123456789123456 # Optional Discord role ID to be mentioned!
 #BOT_AVATAR_1=https://example.com/podcast_logo.png # Optional and can be omitted, then RSS feed info is used
 
 # Feed 2 Configuration
-# FEED_URL_2=https://anchor.fm/s/abc123/podcast/rss # Link to Spotify RSS feed
+# FEED_URL_2=https://anchor.fm/s/abc123/podcast/rss # Link to the RSS feed from Spotify
 # WEBHOOK_URL_2=https://discord.com/api/webhooks/123456789/abcdefghijklmnopqrstuvwxyz # Discord channel webhook URL
 # SPOTIFY_SHOW_ID_2=123456789 # Optional Required when using the API to find the podcast!
 # ROLE_ID_2=123456789123456  # Optional Discord role ID to be mentioned!
@@ -78,14 +78,14 @@ ROLE_ID_1=123456789123456 # Optional Discord role ID to be mentioned!
 # BOT_AVATAR_2=https://example.com/podcast_logo.png # Optional and can be omitted, then RSS feed info is used
 
 # Feed 3 Configuration
-# .
-# .
-# .
+# ...
+# ...
+# ...
 
 # Feed 4 Configuration
-#. 
-#. 
-#.
+# ...
+# ...
+# ...
 ```
 
 ### Configuration Options
