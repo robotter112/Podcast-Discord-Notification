@@ -19,7 +19,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("/home/scripts/spotify_rss/verplant_rss.log"),
+        logging.FileHandler("/home/scripts/spotify_rss/discord_rss.log"),
         logging.StreamHandler()
     ]
 )
@@ -36,7 +36,7 @@ SPOTIFY_TOKEN_EXPIRY = 0
 
 # Datenbank initialisieren
 def init_db():
-    conn = sqlite3.connect('/home/scripts/spotify_rss/verplant_rss.db')
+    conn = sqlite3.connect('/home/scripts/spotify_rss/discord_rss.db')
     cursor = conn.cursor()
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS last_episodes (
