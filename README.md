@@ -152,7 +152,7 @@ To run the script regularly, you can set up a cron job:
 
 2. Add a line to run the script every 15 minutes, for example:
    ```
-   */15 * * * * /path/to/your/project/run_spotify_rss.sh
+   */15 * * * * /path/to/your/project/run_spotify_rss.sh >> /path/to/your/project/cron.log 2>&1
    ```
 
 ### Automation with Task Scheduler (Windows)
