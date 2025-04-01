@@ -183,13 +183,13 @@ The Discord message includes:
 ├── .env                 # Configuration file
 ├── run_spotify_rss.sh   # Execution script
 ├── venv/                # Virtual Python environment
-└── verplant_rss.db      # SQLite database for sent episodes
-└── verplant_rss.log     # Log file
+└── discord_rss.db      # SQLite database for sent episodes
+└── discord_rss.log     # Log file
 ```
 
 ## Troubleshooting
 
-The script creates a log file at ```/home/scripts/spotify_rss/verplant_rss.log```. Check this file if problems occur.
+The script creates a log file at ```/home/scripts/spotify_rss/discord_rss.log```. Check this file if problems occur.
 
 Common issues:
 
